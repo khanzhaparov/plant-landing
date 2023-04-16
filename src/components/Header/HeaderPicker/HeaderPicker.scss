@@ -1,0 +1,42 @@
+.header__picker {
+  width: 54px;
+  height: 54px;
+  position: absolute;
+  top: 65%;
+  right: 13%;
+  .picker__content {
+    position: absolute;
+    bottom: 110%;
+    right: -145%;
+    width: 205px !important;
+    .picker__message {
+      position: relative;
+      .message__image {
+      }
+      .message__text {
+        position: absolute;
+        bottom: 40%;
+        left: 10%;
+        .message__price {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 32px;
+          line-height: 38px;
+  
+          color: #FFFFFF;
+        }
+        .message__title {
+          font-style: normal;
+          font-weight: 700;
+          font-size: 16px;
+          line-height: 19px;
+
+          color: #FFFFFF;
+        }
+      }
+    }
+  }
+  .picker-point {
+    cursor: pointer;
+  }
+}

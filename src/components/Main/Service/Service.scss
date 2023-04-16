@@ -1,0 +1,27 @@
+.service {
+  justify-content: space-between;
+  margin-top: 102px;
+  .service__card {
+    .card {
+      .card__img {}
+      .card__content {
+        margin-left: 24px;
+        .card__title {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 32px;
+          line-height: 38px;
+          color: #081323;
+          margin-bottom: 16px;
+        }
+        .card__subtitle {
+          font-style: normal;
+          font-weight: 500;
+          font-size: 20px;
+          line-height: 23px;
+          color: #828282;
+        }
+      }
+    }
+  }
+}

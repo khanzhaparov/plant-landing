@@ -1,0 +1,87 @@
+.bestseller {
+  margin-top: 142px;
+  justify-content: space-between;
+  align-items: center;
+  .bestseller__text {
+    .text__title {
+      font-style: normal;
+      font-weight: 500;
+      font-size: 64px;
+      line-height: 75px;
+
+      /* font */
+      color: #081323;
+      margin-bottom: 1rem;
+    }
+    .text__subtitle {
+      position: relative;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      line-height: 28px;
+      padding: 16px 0;
+
+      /* Gray 2 */
+      color: #4F4F4F;
+      &::after {
+        content: url(../../../assets/img/main/bestseller/bi_arrow-right-short.svg);
+        position: absolute;
+        bottom: 0;
+        cursor: pointer;
+      }
+    }
+  }
+  .bestseller__content {
+    .bestseller__cards {
+      .card {
+        position: relative;
+        background: #C1D0E4;
+        border-radius: 50px;
+        width: 277px;
+        height: 493.78px;
+        &:nth-child(2) {
+          margin: 0 16px;
+        }
+        &-plant-img {
+          position: absolute;
+          bottom: 53%;
+        }
+        &__white {
+          position: absolute;
+          bottom: 0;
+          width: 100%;
+          padding: 26px 38px;
+          background: #FFFFFF;
+          border-radius: 50px;
+          .white__up {
+            &-title {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 32px;
+              line-height: 38px;
+              color: #081323;
+              margin-bottom: 7px;
+            }
+          }
+          .white__down {
+            justify-content: space-between;
+            align-items: center;
+            margin-top: 75px;
+            &-price {
+              font-style: normal;
+              font-weight: 500;
+              font-size: 32px;
+              line-height: 38px;
+              color: #081323;
+              padding: 13px 0;
+            }
+            button {
+              all: unset;
+              cursor: pointer;
+            }
+          }
+        }
+      }
+    }
+  }
+}

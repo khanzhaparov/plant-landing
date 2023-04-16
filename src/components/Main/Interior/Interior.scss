@@ -1,0 +1,42 @@
+.interior {
+  margin-top: 182px;
+  text-align: center;
+  h2 {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 75px;
+
+    /* identical to box height */
+
+    /* font */
+    color: #081323;
+    margin-bottom: 27px;
+  }
+  p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+
+    /* Gray 2 */
+    color: #4F4F4F;
+    margin-bottom: 82px;
+  }
+  &__content {
+    justify-content: space-between;
+    max-height: 100%;
+    .col {
+      max-width: calc(100%/2 - 16px);
+    }
+    &-left {
+      &__images {
+        .livingroom {
+          margin-bottom: 54px;
+        }
+        .small {
+        }
+      }
+    }
+  }
+}

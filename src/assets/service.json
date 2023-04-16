@@ -1,0 +1,20 @@
+[
+  {
+    "id": 0,
+    "imageUrl": "assets/img/main/service/akar-icons_shipping-box-02.svg",
+    "title": "Free Shapping",
+    "subtitle": "No charge for each delivery"
+  },
+  {
+    "id": 1,
+    "imageUrl": "assets/img/main/service/fluent_wallet-credit-card-16-regular.svg",
+    "title": "Quick Payment",
+    "subtitle": "100% secure payment"
+  },
+  {
+    "id": 2,
+    "imageUrl": "assets/img/main/service/ri_customer-service-2-line.svg",
+    "title": "24/7 Support",
+    "subtitle": "Quick support"
+  }
+]
